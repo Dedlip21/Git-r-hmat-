@@ -1,0 +1,53 @@
+1) Ülesanne üks: leida vigad nendes SQL päringutes (2 päringud)
+
+	1. CRATE TABLE Opilane (
+	    IdOpilane int primary key auto_identify,
+	    nimi var(20),
+	    perenimi var(20)
+	    telefon var(12)
+	    );
+
+
+	2. SELECT * FROM Opilane
+	   WHERE nimi='Rolan';
+
+2)Ülesanne kaks: leida vigad nendes päringutes 
+
+1.
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ülesanne 2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            char[] chars = {'H','e','l','l','o'};
+
+	    string str1 = string(char);  
+	    string str2 = string(char); 
+
+	    foreach (chars c in str1)
+	    {
+                Console.Line(c);
+	    }
+        }
+    }
+}
+
+2. 
+<!DOCTYP html>
+<html lang="et">
+<head>
+    <meta charset="UTF-10">
+    <title>Ülesanne 2</title>
+    <link rel="styleshit" type="text/js" href="style.css">
+    <scrpt scr="1.js"></scrpt>
+    <scrpt scr="2.js"></scrpt>
+    <scrpt scr="3.js"></scrpt>
+    <scrpt scr="4.js"></scrpt>
+</head>
