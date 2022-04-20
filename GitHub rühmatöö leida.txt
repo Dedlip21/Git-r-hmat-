@@ -1,10 +1,10 @@
 1) Ülesanne üks: leida vigad nendes SQL päringutes (2 päringud)
 
-	1. CRATE TABLE Opilane (
+	1. CREATE TABLE Opilane (       /*fixed*/
 	    IdOpilane int primary key auto_identify,
-	    nimi var(20),
-	    perenimi var(20)
-	    telefon var(12)
+	    nimi varchar(20),  /*fixed*/
+	    perenimi varchar(20)  /*fixed*/
+	    telefon varchar(12)  /*fixed*/
 	    );
 
 
@@ -26,14 +26,14 @@ namespace Ülesanne 2
     {
         static void Main(string[] args)
         {
-            char[] chars = {'H','e','l','l','o'};
+            char[] chars = new char[] {'H','e','l','l','o'};   /*fixed*/
 
-	    string str1 = string(char);  
-	    string str2 = string(char); 
+	    string str1 = string(chars);    /*fixed*/
+	    string str2 = string(chars);    /*fixed*/
 
 	    foreach (chars c in str1)
 	    {
-                Console.Line(c);
+                Console.WriteLine(c);   /*fixed*/
 	    }
         }
     }
@@ -43,11 +43,11 @@ namespace Ülesanne 2
 <!DOCTYP html>
 <html lang="et">
 <head>
-    <meta charset="UTF-10">
+    <meta charset="UTF-8">   /*fixed*/
     <title>Ülesanne 2</title>
-    <link rel="styleshit" type="text/js" href="style.css">
-    <scrpt scr="1.js"></scrpt>
-    <scrpt scr="2.js"></scrpt>
-    <scrpt scr="3.js"></scrpt>
-    <scrpt scr="4.js"></scrpt>
+    <link rel="stylesheet" type="text/js" href="style.css">
+    <script scr="1.js"></script>
+    <script scr="2.js"></script>
+    <script scr="3.js"></script>
+    <script scr="4.js"></script>
 </head>
